@@ -13,7 +13,7 @@ li{
   padding: 20px;
 }
 body{
-    background-color: rgb(2, 7, 18);
+    background-color: #020712;
 
 }
 
@@ -50,7 +50,7 @@ margin: 0 auto;
     grid-column: 2;   
     padding: 20px;
     background: lightcoral;
-    text-align: left;
+    text-align: justify;
 }
 
 .box5{
@@ -58,6 +58,7 @@ margin: 0 auto;
     grid-column: 1;
     background: indigo;
     padding: 20px;
+    text-align: left;
 
 }
 
@@ -79,6 +80,7 @@ margin: 0 auto;
     grid-column: 2;
     background: lemonchiffon;
     padding: 20px;
+    text-align: center;
 
 }
 
@@ -103,8 +105,10 @@ h1{
 }
 
 h2{
+    font-size: 40px;
     font-family: 'Oswald', sans-serif;
     color: white;
+    height: 40px;
 }
 
 h3{
@@ -116,22 +120,21 @@ h3{
 h4{
     font-family: 'Cookie', cursive;
     color: white;
+    font-size: 40px;
 }
 
-h6{
+h5{
     font-family: 'Oswald', sans-serif;
     color: white;
 }
 
 p{
+    font-size: 20px;
     color: white;
 }
 
 .message{
-    width: 250px;
-    height: 80px;
+    width: 350px;
+    height: 100px;;
 }
 
-.yes{
-    padding: 100px 50px 100px 50px;
-}
